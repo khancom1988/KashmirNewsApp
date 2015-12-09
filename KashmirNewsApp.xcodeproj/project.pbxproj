@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0316ED0D1C18662A00215731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED0C1C18662A00215731 /* AppDelegate.swift */; };
+		0316ED0F1C18662A00215731 /* GKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED0E1C18662A00215731 /* GKViewController.swift */; };
+		0316ED121C18662A00215731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0316ED101C18662A00215731 /* Main.storyboard */; };
+		0316ED141C18662A00215731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0316ED131C18662A00215731 /* Assets.xcassets */; };
+		0316ED171C18662A00215731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0316ED151C18662A00215731 /* LaunchScreen.storyboard */; };
+		0316ED221C18662A00215731 /* KashmirNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED211C18662A00215731 /* KashmirNewsAppTests.swift */; };
+		0316ED2D1C18662A00215731 /* KashmirNewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED2C1C18662A00215731 /* KashmirNewsAppUITests.swift */; };
+		0316ED3B1C186A8E00215731 /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED3A1C186A8E00215731 /* RKViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0316ED3D1C186AA200215731 /* KUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED3C1C186AA200215731 /* KUViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0316ED3F1C186CEE00215731 /* RSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0316ED3E1C186CEE00215731 /* RSS.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0316ED1E1C18662A00215731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0316ED011C18662900215731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0316ED081C18662A00215731;
+			remoteInfo = KashmirNewsApp;
+		};
+		0316ED291C18662A00215731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0316ED011C18662900215731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0316ED081C18662A00215731;
+			remoteInfo = KashmirNewsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0316ED091C18662A00215731 /* KashmirNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KashmirNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0316ED0C1C18662A00215731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0316ED0E1C18662A00215731 /* GKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKViewController.swift; sourceTree = "<group>"; };
+		0316ED111C18662A00215731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0316ED131C18662A00215731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0316ED161C18662A00215731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0316ED181C18662A00215731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0316ED1D1C18662A00215731 /* KashmirNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KashmirNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0316ED211C18662A00215731 /* KashmirNewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KashmirNewsAppTests.swift; sourceTree = "<group>"; };
+		0316ED231C18662A00215731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0316ED281C18662A00215731 /* KashmirNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KashmirNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0316ED2C1C18662A00215731 /* KashmirNewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KashmirNewsAppUITests.swift; sourceTree = "<group>"; };
+		0316ED2E1C18662A00215731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0316ED3A1C186A8E00215731 /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
+		0316ED3C1C186AA200215731 /* KUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KUViewController.swift; sourceTree = "<group>"; };
+		0316ED3E1C186CEE00215731 /* RSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0316ED061C18662A00215731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0316ED1A1C18662A00215731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0316ED251C18662A00215731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0316ED001C18662900215731 = {
+			isa = PBXGroup;
+			children = (
+				0316ED0B1C18662A00215731 /* KashmirNewsApp */,
+				0316ED201C18662A00215731 /* KashmirNewsAppTests */,
+				0316ED2B1C18662A00215731 /* KashmirNewsAppUITests */,
+				0316ED0A1C18662A00215731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0316ED0A1C18662A00215731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0316ED091C18662A00215731 /* KashmirNewsApp.app */,
+				0316ED1D1C18662A00215731 /* KashmirNewsAppTests.xctest */,
+				0316ED281C18662A00215731 /* KashmirNewsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0316ED0B1C18662A00215731 /* KashmirNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0316ED0C1C18662A00215731 /* AppDelegate.swift */,
+				0316ED0E1C18662A00215731 /* GKViewController.swift */,
+				0316ED3A1C186A8E00215731 /* RKViewController.swift */,
+				0316ED3C1C186AA200215731 /* KUViewController.swift */,
+				0316ED3E1C186CEE00215731 /* RSS.swift */,
+				0316ED101C18662A00215731 /* Main.storyboard */,
+				0316ED131C18662A00215731 /* Assets.xcassets */,
+				0316ED151C18662A00215731 /* LaunchScreen.storyboard */,
+				0316ED181C18662A00215731 /* Info.plist */,
+			);
+			path = KashmirNewsApp;
+			sourceTree = "<group>";
+		};
+		0316ED201C18662A00215731 /* KashmirNewsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0316ED211C18662A00215731 /* KashmirNewsAppTests.swift */,
+				0316ED231C18662A00215731 /* Info.plist */,
+			);
+			path = KashmirNewsAppTests;
+			sourceTree = "<group>";
+		};
+		0316ED2B1C18662A00215731 /* KashmirNewsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0316ED2C1C18662A00215731 /* KashmirNewsAppUITests.swift */,
+				0316ED2E1C18662A00215731 /* Info.plist */,
+			);
+			path = KashmirNewsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0316ED081C18662A00215731 /* KashmirNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0316ED311C18662A00215731 /* Build configuration list for PBXNativeTarget "KashmirNewsApp" */;
+			buildPhases = (
+				0316ED051C18662A00215731 /* Sources */,
+				0316ED061C18662A00215731 /* Frameworks */,
+				0316ED071C18662A00215731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KashmirNewsApp;
+			productName = KashmirNewsApp;
+			productReference = 0316ED091C18662A00215731 /* KashmirNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0316ED1C1C18662A00215731 /* KashmirNewsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0316ED341C18662A00215731 /* Build configuration list for PBXNativeTarget "KashmirNewsAppTests" */;
+			buildPhases = (
+				0316ED191C18662A00215731 /* Sources */,
+				0316ED1A1C18662A00215731 /* Frameworks */,
+				0316ED1B1C18662A00215731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0316ED1F1C18662A00215731 /* PBXTargetDependency */,
+			);
+			name = KashmirNewsAppTests;
+			productName = KashmirNewsAppTests;
+			productReference = 0316ED1D1C18662A00215731 /* KashmirNewsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0316ED271C18662A00215731 /* KashmirNewsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0316ED371C18662A00215731 /* Build configuration list for PBXNativeTarget "KashmirNewsAppUITests" */;
+			buildPhases = (
+				0316ED241C18662A00215731 /* Sources */,
+				0316ED251C18662A00215731 /* Frameworks */,
+				0316ED261C18662A00215731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0316ED2A1C18662A00215731 /* PBXTargetDependency */,
+			);
+			name = KashmirNewsAppUITests;
+			productName = KashmirNewsAppUITests;
+			productReference = 0316ED281C18662A00215731 /* KashmirNewsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0316ED011C18662900215731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iArdentDevz;
+				TargetAttributes = {
+					0316ED081C18662A00215731 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0316ED1C1C18662A00215731 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0316ED081C18662A00215731;
+					};
+					0316ED271C18662A00215731 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0316ED081C18662A00215731;
+					};
+				};
+			};
+			buildConfigurationList = 0316ED041C18662900215731 /* Build configuration list for PBXProject "KashmirNewsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0316ED001C18662900215731;
+			productRefGroup = 0316ED0A1C18662A00215731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0316ED081C18662A00215731 /* KashmirNewsApp */,
+				0316ED1C1C18662A00215731 /* KashmirNewsAppTests */,
+				0316ED271C18662A00215731 /* KashmirNewsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0316ED071C18662A00215731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0316ED171C18662A00215731 /* LaunchScreen.storyboard in Resources */,
+				0316ED141C18662A00215731 /* Assets.xcassets in Resources */,
+				0316ED121C18662A00215731 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0316ED1B1C18662A00215731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0316ED261C18662A00215731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0316ED051C18662A00215731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0316ED3D1C186AA200215731 /* KUViewController.swift in Sources */,
+				0316ED0F1C18662A00215731 /* GKViewController.swift in Sources */,
+				0316ED3B1C186A8E00215731 /* RKViewController.swift in Sources */,
+				0316ED0D1C18662A00215731 /* AppDelegate.swift in Sources */,
+				0316ED3F1C186CEE00215731 /* RSS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0316ED191C18662A00215731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0316ED221C18662A00215731 /* KashmirNewsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0316ED241C18662A00215731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0316ED2D1C18662A00215731 /* KashmirNewsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0316ED1F1C18662A00215731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0316ED081C18662A00215731 /* KashmirNewsApp */;
+			targetProxy = 0316ED1E1C18662A00215731 /* PBXContainerItemProxy */;
+		};
+		0316ED2A1C18662A00215731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0316ED081C18662A00215731 /* KashmirNewsApp */;
+			targetProxy = 0316ED291C18662A00215731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0316ED101C18662A00215731 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0316ED111C18662A00215731 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0316ED151C18662A00215731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0316ED161C18662A00215731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0316ED2F1C18662A00215731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0316ED301C18662A00215731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0316ED321C18662A00215731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KashmirNewsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAdrentDevz.KashmirNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0316ED331C18662A00215731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KashmirNewsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAdrentDevz.KashmirNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0316ED351C18662A00215731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KashmirNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAdrentDevz.KashmirNewsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KashmirNewsApp.app/KashmirNewsApp";
+			};
+			name = Debug;
+		};
+		0316ED361C18662A00215731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KashmirNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAdrentDevz.KashmirNewsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KashmirNewsApp.app/KashmirNewsApp";
+			};
+			name = Release;
+		};
+		0316ED381C18662A00215731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KashmirNewsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAdrentDevz.KashmirNewsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KashmirNewsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0316ED391C18662A00215731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KashmirNewsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAdrentDevz.KashmirNewsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KashmirNewsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0316ED041C18662900215731 /* Build configuration list for PBXProject "KashmirNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0316ED2F1C18662A00215731 /* Debug */,
+				0316ED301C18662A00215731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0316ED311C18662A00215731 /* Build configuration list for PBXNativeTarget "KashmirNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0316ED321C18662A00215731 /* Debug */,
+				0316ED331C18662A00215731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0316ED341C18662A00215731 /* Build configuration list for PBXNativeTarget "KashmirNewsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0316ED351C18662A00215731 /* Debug */,
+				0316ED361C18662A00215731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0316ED371C18662A00215731 /* Build configuration list for PBXNativeTarget "KashmirNewsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0316ED381C18662A00215731 /* Debug */,
+				0316ED391C18662A00215731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0316ED011C18662900215731 /* Project object */;
+}

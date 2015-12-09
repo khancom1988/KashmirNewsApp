@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qPY-oo-XCI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Greater Kashmir-->
+        <scene sceneID="OLG-tY-vZy">
+            <objects>
+                <viewController title="Greater Kashmir" id="f6G-Ac-KBA" customClass="GKViewController" customModule="KashmirNewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DnV-os-n8k"/>
+                        <viewControllerLayoutGuide type="bottom" id="1el-6Y-ifv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zbq-FF-sMW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Greater Kashmir" id="Glk-f8-DbG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Yw-Di-KdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-470" y="792"/>
+        </scene>
+        <!--Kashmir Uzma-->
+        <scene sceneID="dUy-gl-3ff">
+            <objects>
+                <viewController title="Kashmir Uzma" id="40p-4D-Jr6" customClass="KUViewController" customModule="KashmirNewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="15A-DD-WB6"/>
+                        <viewControllerLayoutGuide type="bottom" id="POs-Am-fhV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pSH-vZ-Mge">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Kishmir Uzma" id="Rzq-o4-PQy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7WG-29-TlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="531"/>
+        </scene>
+        <!--Rising Kashmir-->
+        <scene sceneID="iQ6-Bh-lGc">
+            <objects>
+                <viewController title="Rising Kashmir" id="Fde-QW-JB3" customClass="RKViewController" customModule="KashmirNewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2FF-Ro-19L"/>
+                        <viewControllerLayoutGuide type="bottom" id="V7y-Su-OMn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nmv-Oq-bKf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rising Kashmir" id="Crr-Rk-3Jc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HoF-19-Iyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="-250"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Gn2-Zv-Hba">
+            <objects>
+                <tabBarController id="5fq-8r-E8B" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3Bo-75-mee"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="OiA-zM-xL9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Fde-QW-JB3" kind="relationship" relationship="viewControllers" id="ieZ-vR-BZp"/>
+                        <segue destination="f6G-Ac-KBA" kind="relationship" relationship="viewControllers" id="vLp-h6-CCT"/>
+                        <segue destination="40p-4D-Jr6" kind="relationship" relationship="viewControllers" id="KTx-xU-cIf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dd8-9C-slI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-514" y="-250"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ve2-hc-ozJ">
+            <objects>
+                <navigationController id="qPY-oo-XCI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jb7-FA-1a1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5fq-8r-E8B" kind="relationship" relationship="rootViewController" id="rqs-0J-sut"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r2I-kZ-5oX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1130" y="-961"/>
+        </scene>
+    </scenes>
+</document>
